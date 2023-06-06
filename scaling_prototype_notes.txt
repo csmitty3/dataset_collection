@@ -1,0 +1,10 @@
+Scaling prototype:
+
+In my previous step I experimented with using different sizes of datasets on my model and did research on best practices for the Long Short Term Memory Neural Networks. It appears that it would be optimal to only use a years worth of data for my model. This is also what was optimal in practice. 
+
+Looking at a 'real world' example of this, I may only train it once a week and make a prediction for the next 5 market days. I could also retrain my model daily. We would only add one row of data per day which is very minimal in the scheme of things. 
+
+If I was using more complex data and more sources, I could utilize PySpark to scale my data operations and create a more efficient pipeline.
+
+As we learned in the curriculum, engineering is about finding and using the right tool for the problem. In this case, using plain old pandas and using no more than one years worth of stock data seems to be most optimal.
+
