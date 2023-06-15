@@ -1,0 +1,8 @@
+The following are steps I will take to deployment:
+
+1) Turn my deep learning model to a pickle.
+2) Convert my code from a jupyter notebook to a true python script.
+3) Use Docker to containerize my project.
+4) Use Flask to create a web application.
+5) Add a front end with HTML/CSS/Javascript.
+6) Deploy website using Heroku.
